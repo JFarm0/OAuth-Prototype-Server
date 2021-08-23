@@ -16,6 +16,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.security.oauth:spring-security-oauth2:2.4.1.RELEASE'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	runtimeOnly 'org.glassfish.jaxb:jaxb-runtime'
 }
 
 test {
